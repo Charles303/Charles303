@@ -32,11 +32,12 @@
     background-color: deepskyblue;
 }
 .blancbg{
-    height: 400px;
     background-color: white;
 }
 .noirbg{
-    background-color: black;
+    background-color: white;
+    height: 350px;
+    align-items: end;
 }
 .button1{
     background-color: deepskyblue; /* Green */
