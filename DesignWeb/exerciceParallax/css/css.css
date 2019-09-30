@@ -1,0 +1,73 @@
+html,body { margin:0; height:100%;}
+
+.parallax {
+    /* L’image du Parallax */
+    background-image: url("../img/ferrari_laferrari_4k-HD.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgblue{
+    background-color: rgba(255,255,0,.6);
+}
+.bggris{
+    background-color: rgba(255,255,255,.4);
+}
+.check{
+    list-style-image: url('../img/check.png');
+}
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../img/old porsche 2.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("../img/audi rs7.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vert{
+    background-color: yellowgreen;
+}
+.brun{
+    background-color: sandybrown;
+}
+.rouge{
+    background-color: indianred;
+}
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    .parallax {
+        /* L’image du Parallax */
+        background-image: url("../img/laferrari vertical.jpg");
+    }
+}
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .parallax {
+        /* L’image du Parallax */
+        background-image: url("../img/laferrari vertical.jpg");
+    }
+}
