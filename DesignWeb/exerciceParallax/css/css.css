@@ -67,7 +67,7 @@ html,body { margin:0; height:100%;}
     }
     .parallax2 {
         /* L’image du Parallax */
-        background-image: url("../img/old porsche 2.jpg");
+        background-image: url("../img/old porsche 2.jpg") ;
         max-height: 568px;
         max-width: 320px;
     }
@@ -83,19 +83,6 @@ html,body { margin:0; height:100%;}
     .parallax {
         /* L’image du Parallax */
         background-image: url("../img/laferrari vertical 2.jpg");
-        max-height: 568px;
-        max-width: 320px;
-    }
-    .parallax2 {
-        /* L’image du Parallax */
-        background-image: url("../img/old porsche 2.jpg");
-        max-height: 568px;
-        max-width: 320px;
-    }
-    .parallax3 {
-        /* L’image du Parallax */
-        background-image: url("../img/audi rs7.jpg");
-        max-height: 568px;
-        max-width: 320px;
+        height: 100%;
     }
 }
