@@ -32,12 +32,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ducla\PhpstormProjects\exerciceParallax" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ducla\Documents\Github\Charles303\DesignWeb\exerciceParallax\img" />
       <recent name="C:\Users\ducla\PhpstormProjects\exerciceParallax\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ducla\PhpstormProjects\exerciceParallax" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -66,7 +66,7 @@
       <workItem from="1569611593495" duration="5011000" />
       <workItem from="1569870700496" duration="3843000" />
       <workItem from="1569874667376" duration="2660000" />
-      <workItem from="1569932071319" duration="1175000" />
+      <workItem from="1569932071319" duration="4506000" />
     </task>
     <servers />
   </component>

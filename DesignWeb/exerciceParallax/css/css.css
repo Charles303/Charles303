@@ -62,28 +62,20 @@ html,body { margin:0; height:100%;}
     .parallax {
         /* L’image du Parallax */
         background-image: url("../img/laferrari vertical 2.jpg");
-        background-attachment: unset;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
+
     }
     .parallax2 {
         /* L’image du Parallax */
         background-image: url("../img/old porsche 2.jpg") ;
-        background-attachment: unset;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
+
     }
     .parallax3 {
         /* L’image du Parallax */
         background-image: url("../img/audi rs7.jpg");
-        background-attachment: unset;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
+
     }
 }
+
 /* TABLETTES */
 @media screen and (min-width: 481px) and (max-width: 1199px) {
     .parallax {
@@ -91,4 +83,41 @@ html,body { margin:0; height:100%;}
         background-image: url("../img/laferrari vertical 2.jpg");
         height: 100%;
     }
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
 }
