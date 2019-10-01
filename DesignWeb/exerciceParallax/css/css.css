@@ -62,7 +62,7 @@ html,body { margin:0; height:100%;}
     .parallax {
         /* L’image du Parallax */
         background-image: url("../img/laferrari vertical 2.jpg");
-        background-attachment: fixed;
+        background-attachment: unset;
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -70,7 +70,7 @@ html,body { margin:0; height:100%;}
     .parallax2 {
         /* L’image du Parallax */
         background-image: url("../img/old porsche 2.jpg") ;
-        background-attachment: fixed;
+        background-attachment: unset;
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -78,7 +78,7 @@ html,body { margin:0; height:100%;}
     .parallax3 {
         /* L’image du Parallax */
         background-image: url("../img/audi rs7.jpg");
-        background-attachment: fixed;
+        background-attachment: unset;
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
