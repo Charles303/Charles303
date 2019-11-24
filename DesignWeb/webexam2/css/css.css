@@ -1,0 +1,28 @@
+.rouge{
+    color: red;
+}
+.vert{
+    color: green;
+}
+.bleu{
+    color: blue;
+}
+.bleufonce{
+    color: darkblue;
+}
+.gris{
+    color: grey;
+}
+.noir{
+    color: black;
+}
+.rose{
+    color: pink;
+}
+.fond{
+    background-color: white;
+}
+@media print {
+    .pagebreak {page-break-after: always;}
+    .not {page-break-after: avoid !important;}
+}
