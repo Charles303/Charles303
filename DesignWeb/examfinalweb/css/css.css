@@ -1,0 +1,368 @@
+html,body { margin:0; height:100%;}
+.navbar {
+    background-color: #424242;
+}
+.navbar .navbar-brand {
+    color: #ecf0f1;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #000000;
+}
+.navbar .navbar-text {
+    color: #ecf0f1;
+}
+.navbar .navbar-text a {
+    color: #000000;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #000000;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ecf0f1;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #000000;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #000000;
+    background-color: #c40101;
+}
+.navbar .navbar-toggle {
+    border-color: #c40101;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #c40101;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #ecf0f1;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #ecf0f1;
+}
+.navbar .navbar-link {
+    color: #ecf0f1;
+}
+.navbar .navbar-link:hover {
+    color: #000000;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #c40101;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #c40101;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #c40101;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #000000;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #000000;
+        background-color: #c40101;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #000000;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #000000;
+    background-color: #c40101;
+}
+.blanc{
+    color: whitesmoke;
+}
+.rouge{
+    color: red;
+}
+.hauteur{
+    height: 100%;
+    width: 100%;
+}
+.parallax2 {
+    /* L’image du Parallax */
+    background-image: url("../img/model-s parallax.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* L’image du Parallax */
+    background-image: url("../img/tesla-model-x parallax.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 {
+    /* L’image du Parallax */
+    background-image: url("../img/porsche gt3rs.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax5 {
+    /* L’image du Parallax */
+    background-image: url("../img/spyder 918.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax6 {
+    /* L’image du Parallax */
+    background-image: url("../img/audi rs4.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax7 {
+    /* L’image du Parallax */
+    background-image: url("../img/audi r8 gris.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax8 {
+    /* L’image du Parallax */
+    background-image: url("../img/chevrolet-camaro-exorcist.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax9 {
+    /* L’image du Parallax */
+    background-image: url("../img/corvette z06.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax10 {
+    /* L’image du Parallax */
+    background-image: url("../img/charger hellcat wallpaper.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax11 {
+    /* L’image du Parallax */
+    background-image: url("../img/challenger hellcat.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+.bg{
+    background-image: url("../img/carbon fiber.jpg");
+}
+.bleu{
+    color: darkblue;
+}
+.vert{
+    color: yellowgreen;
+}
+/* Cellulaires */
+@media only screen and (max-width: 480px){
+    .parallax2 {
+        /* L’image du Parallax */
+        background-image: url("../img/model s iphone.jpg") ;
+
+    }
+    .parallax3 {
+        /* L’image du Parallax */
+        background-image: url("../img/model x iphone.jpg");
+
+    }
+    .parallax4 {
+        /* L’image du Parallax */
+        background-image: url("../img/model s iphone.jpg") ;
+
+    }
+    .parallax5 {
+        /* L’image du Parallax */
+        background-image: url("../img/model x iphone.jpg");
+
+    }
+}
+
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .parallax2 {
+        /* L’image du Parallax */
+        background-image: url("../img/model s iphone.jpg");
+        height: 100%;
+
+    }
+    .parallax3 {
+        /* L’image du Parallax */
+        background-image: url("../img/model x iphone.jpg");
+
+    }
+    .parallax4 {
+        /* L’image du Parallax */
+        background-image: url("../img/model s iphone.jpg") ;
+
+    }
+    .parallax5 {
+        /* L’image du Parallax */
+        background-image: url("../img/model x iphone.jpg");
+
+    }
+}
+
+.bgblue{
+    background-color: rgba(255,255,0,.6);
+}
+.bggris{
+    background-color: rgba(255,255,255,.4);
+}

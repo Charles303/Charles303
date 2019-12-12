@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chevrolet</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <link rel="icon" type="image/png" href="img/matte-vehicle-wraps-sf.png" />
+</head>
+<body>
+<!--navbar-->
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light">
+    <i class="fas fa-car blanc"></i>
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link shake" href="index.html">Tesla<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link shake" href="page2.html">Porsche</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link shake" href="page3.html">Audi</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link shake" href="page4.html">Chevrolet</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link shake" href="page5.html">Dodge</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+<header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <source src="img/2020_Corvette_Stands_Alone__Chevrolet_hd.mp4" type="video/mp4">
+    </video>
+</header>
+
+<!--carousel-->
+
+<!--vidéo-->
+
+<!--parallax-->
+<div class="container-fluid parallax8 h-100">
+    <div class="row align-items-end pb-0 h-25">
+        <!-- zone de texte à droite -->
+        <div class="col-xl-3 offset-xl-6 py-5 text-center text-white">
+            <h1>Chevrolet Camaro</h1>
+            <p>Puissante, point final</p>
+            <p>La Chevrolet Camaro est une automobile de type pony car construite par General Motors en quatre générations de 1967 à 2002. La production a repris en 20091 pour une cinquième version, suivie en 2016 par une sixième. La Camaro fut construite pour concurrencer la Ford Mustang.</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid parallax9 h-100">
+    <div class="row align-items-end pb-0 h-50">
+        <div class="col-xl-3 text-center text-white">
+            <h1>Chevrolet Corvette</h1>
+            <p>Classique d'aujourd'hui</p>
+            <p>La première Corvette comportait déjà de nombreuses innovations : c'était la première voiture de série dont les lignes étaient directement issues d'un concept car, et surtout, c'était la première voiture de série à posséder une carrosserie en fibre de verre.</p>
+        </div>
+    </div>
+</div>
+<div id="myCarousel" class="carousel slide bg" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ul>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="img-fluid image w-100" src="img/camaro%20zl1.jpg" alt="tesla">
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid image w-100" src="img/corvette%202020.jpg" alt="genesis">
+        </div>
+        <div class="carousel-item">
+            <img class="img-fluid image w-100" src="img/chevrolet%20blazer.jpg" alt="911">
+        </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+<!--formulaire-->
+<div class="container-fluid py-5 bg">
+    <div class="row">
+        <div class="col-6">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                </div>
+            </div>
+            <div class="form-group mb-3">
+                <label for="inputPassword4" class="text-white">Mot de passe</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Mot de passe">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress" class="text-white">Adresse</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity" class="text-white">Ville</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState" class="text-white">Région</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choisir...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip" class="text-white">ZIP</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label text-white" for="gridCheck">
+                        J'accepte les conditions et bla bla bla
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Se connecter</button>
+            <p class="py-3">
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Bouton pour une carte qui sert à rien
+                </a>
+            </p>
+            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                Popover à droite
+            </button>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Je l'avais dit que cette carte servait à rien
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88591.69269883011!2d-72.03850137252866!3d46.06126206003344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb8016b6a132937%3A0x5040cadae4d3480!2sVictoriaville%2C%20QC!5e0!3m2!1sfr!2sca!4v1575389411050!5m2!1sfr!2sca" width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div class="card col-xl-6 py-3" style="width: 18rem;">
+                <img class="card-img-top" src="img/2019-chevy-corvette-z06.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Annonce super intrigante</h5>
+                    <p class="card-text">Spécifications sur la corvette stingray</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Ouvrir l'annonce
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-white text-center">
+            <div class="row">
+                <div class="col-4">
+                    <i class="fas fa-car"></i>
+                    <i class="fas fa-car"></i>
+                    <i class="fas fa-car"></i>
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-car"></i>
+                    <i class="fas fa-car"></i>
+                    <i class="fas fa-car"></i>
+                </div>
+                <div class="col-4">
+                    <i class="fas fa-car"></i>
+                    <i class="fas fa-car"></i>
+                    <i class="fas fa-car"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <div class="jumbotron">
+                    <h1 class="display-4">Bonjour à tous</h1>
+                    <p class="lead">La Chevrolet Corvette (C7) est une voiture de sport américaine produite par Chevrolet depuis 2013. Elle représente la 7e génération de Chevrolet Corvette, dont la production a débuté en 1953 et fait renaître le nom « Stingray » (nom anglais de la raie à éperon), désignant à l'origine la Corvette de deuxième génération.</p>
+                    <hr class="my-4">
+                    <form action="https://www.chevrolet.ca/fr/performance/corvette-stingray?ppc=GOOGLE_700000001318083_71700000041150122_58700004399515110_p36993408372&ds_rl=1241961&gclid=Cj0KCQiA_rfvBRCPARIsANlV66N3QlOf5LZn3kVpLYshKKiUWLp0B98RaFDPhHNhGyppVurU2utQpcgaAtIFEALw_wcB&gclsrc=aw.ds">
+                        <input type="submit" class="btn btn-primary" value="En savoir plus" />
+                    </form>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+
+</body>
+</html>
